@@ -1,0 +1,21 @@
+{
+    "name": "node-client",
+    "version": "1.0.0",
+    "description": "virtual node client",
+    "main": "index.js",
+    "directories": {
+        "lib": "lib",
+        "test": "test"
+    },
+    "scripts": {
+        "test": "mocha test/client-test.js"
+    },
+    "author": "ytf",
+    "license": "ISC",
+    "dependencies": {
+        "chai": "^4.1.2",
+        "net": "^1.0.2",
+        "node-aes-cmac": "^0.1.1"
+    }
+}
+
